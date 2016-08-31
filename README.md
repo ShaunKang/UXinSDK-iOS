@@ -23,7 +23,7 @@ UXinSDK requires iOS 6.0 and above.
 
 ## Installation
 
-Bugtags is available through [CocoaPods](http://cocoapods.org). To install
+UXinSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
