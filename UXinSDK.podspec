@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries  = "*.a"
   s.resource            = "*.bundle"
   s.frameworks          = 'AddressBook', 'MediaPlayer', 'CoreTelephony', 'MobileCoreServices', 'CFNetwork', 'SystemConfiguration', 'AudioToolbox', 'AVFoundation'
-  s.ios.library         = 'sqlite3', 'c++', 'stdc++', 'z.1.2.5', 'stdc++.6', 'UXinSDK'
-  s.xcconfig            =  { 'LIRBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/UXinSDK/"', 'OTHER_LDFLAGS' => '-ObjC' }
+  s.ios.library         = 'sqlite3', 'c++', 'stdc++', 'z.1.2.5', 'stdc++.6'
+  s.xcconfig            =  { 'LIRBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/UXinSDK/"', 'OTHER_LDFLAGS' => '-ObjC' ,'ENABLE_BITCODE' => 'NO'}
   s.requires_arc        = true
 end
