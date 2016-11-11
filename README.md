@@ -14,7 +14,7 @@ UXinSDK for iOS, Let your app easily achieve in-app call.
 9. the developer controlled businesses special insert mail list
 10. set the called user nickname function
 11. Developers can customize the user interface
-12. 超高清通话
+12. Adaptive ultra high definition voice call
 13. Add quick access mode
 
 
