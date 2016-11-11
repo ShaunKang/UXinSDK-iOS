@@ -13,13 +13,16 @@ UXinSDK for iOS, Let your app easily achieve in-app call.
 8. extension dial keyboard
 9. the developer controlled businesses special insert mail list
 10. set the called user nickname function
+11. Developers can customize the user interface
+12. 超高清通话
+13. Add quick access mode
 
 
 [Create a free account](http://yuantongxun.com/) and invite your team to improve your apps.
 
 ## Requirements
 
-UXinSDK requires iOS 6.0 and above.
+UXinSDK requires iOS 7.0 and above.
 
 ## Installation
 
@@ -27,5 +30,5 @@ UXinSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'UXinSDK', '~> 1.8.0'
+pod 'UXinSDK', '~> 1.9.0'
 ```
