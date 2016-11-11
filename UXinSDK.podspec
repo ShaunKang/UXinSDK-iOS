@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UXinSDK"
-  s.version      = "1.8.0"
+  s.version      = "1.9.0"
   s.summary      = "Let your app easily achieve in-app call. Learn more at http://yuantongxun.com."
   s.homepage     = "http://yuantongxun.com/"
   s.license      = {
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
       LICENSE
     }
   s.author              = { "UXinSDK" => "shaun.kang@uxin.com" }
-  s.platform            = :ios, '6.0'
+  s.platform            = :ios, '7.0'
   s.source              = { :git => "https://github.com/ShaunKang/UXinSDK-iOS.git", :tag => s.version.to_s }
   s.source_files        = "*.h"
   s.public_header_files = "*.h"
