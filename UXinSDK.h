@@ -511,11 +511,25 @@ typedef NS_ENUM(NSInteger, UXinUpdateUserInfoResult) {
 + (void)setMute:(BOOL)on;
 
 /**
+ *  获取麦克风的静音状态
+ *
+ *  @return 是否静音
+ */
++ (BOOL)getMuteStatus;
+
+/**
  *  设置是否启用扬声器输出声音
  *
  *  @param enable NO:关闭扬声器 YES:打开扬声器
  */
 + (void)setLoudspeakerEnable:(BOOL)enable;
+
+/**
+ *  获取扬声器的状态
+ *
+ *  @return 是否打开扬声器
+ */
++ (BOOL)getLoudspeakerStatus;
 
 /**
  *  播放正在呼出的声音(通过听筒播放)
@@ -648,5 +662,7 @@ typedef NS_ENUM(NSInteger, UXinUpdateUserInfoResult) {
  *  请用｀+(void)logout｀
  */
 + (void)clearCache;
+
+
 
 @end
