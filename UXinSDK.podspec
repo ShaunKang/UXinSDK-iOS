@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UXinSDK"
-  s.version      = "1.9.1"
+  s.version      = "1.9.2"
   s.summary      = "Let your app easily achieve in-app call. Learn more at http://yuantongxun.com."
   s.homepage     = "http://yuantongxun.com/"
   s.license      = {

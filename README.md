@@ -16,6 +16,7 @@ UXinSDK for iOS, Let your app easily achieve in-app call.
 11. Developers can customize the user interface
 12. Adaptive ultra high definition voice call
 13. Add quick access mode
+14. Support ATS.
 
 
 [Create a free account](http://yuantongxun.com/) and invite your team to improve your apps.
@@ -30,5 +31,5 @@ UXinSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'UXinSDK', '~> 1.9.0'
+pod 'UXinSDK', '~> 1.9.2'
 ```

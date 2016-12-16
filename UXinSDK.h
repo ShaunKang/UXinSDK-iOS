@@ -338,12 +338,12 @@ typedef NS_ENUM(NSInteger, UXinUpdateUserInfoResult) {
 + (BOOL)getLogToFileEnable;
 
 /**
- *  是否使用有信的默认通话UI,默认=YES
+ *  是否使用有信的默认通话UI,默认=NO
  */
 + (void)setDefaultCallingUIEnable:(BOOL)enable;
 
 /**
- *  获取是否启用有信的默认通话UI,默认=YES
+ *  获取是否启用有信的默认通话UI,默认=NO
  */
 + (BOOL)getDefaultCallingUIEnable;
 
