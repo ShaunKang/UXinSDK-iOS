@@ -16,7 +16,7 @@ UXinSDK for iOS, Let your app easily achieve in-app call.
 11. Developers can customize the user interface
 12. Adaptive ultra high definition voice call
 13. Add quick access mode
-14. Support ATS.
+14. Supportted ATS
 
 
 [Create a free account](http://yuantongxun.com/) and invite your team to improve your apps.
